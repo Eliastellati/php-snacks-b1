@@ -7,12 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <ul>
-    <?php foreach($randomNumber in $numbers) {
-        <li> echo $randomNumber </li>
-    }
+    <?php for ($i=0; $i<count($numbers); $i++) {?>
+
+        <h6> <?php echo $numbers[$i] ?> </h6>
+   <?php }
     ?>
-    </ul>
 </body>
 </html>
 
